@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#game{
+    height: 500px;
+    width: 438px;
+    border: 10px solid black;
+    margin: 4rem auto;
+    background: url(bg3.jpg);
+    background-size: contain;
+   overflow: hidden;
+   
+}
+#car1{
+
+    height: 100px;
+    width: 51px;
+    background-color: black;
+    position: relative;
+    top: -321px;
+    left: 284px;
+    text-align: center;
+    animation: move 1s linear infinite;
+}
+#car1 img{
+    height: 100px;
+}
+@keyframes move{
+    0%{
+        top:64px;
+    }
+    100%{
+        top: 494px;
+    }
+
+
+
+}
+#car2{
+    height: 70px;
+    width: 60px;
+    background-color: red;
+    position: fixed;
+    top: 460px;
+    left: 700px;
+     text-align: center;
+}
+#car2 img{
+    height: 11   0px;
+    
+}
+
